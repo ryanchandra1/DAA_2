@@ -1,0 +1,8 @@
+def getKurang(myList):
+  sum = 500
+  for row in myList:
+    for item in row:
+      sum -= item
+  return sum
+
+getKurang([[100],[399]])

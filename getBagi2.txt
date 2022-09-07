@@ -1,0 +1,8 @@
+def getBagi2(myList):
+  sum = 144
+  for row in myList:
+    for item in row:
+      sum /= item
+  return sum
+
+getBagi2([[12],[4]])

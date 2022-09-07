@@ -1,0 +1,3 @@
+def getFirst(myList):
+  return myList[0]
+getFirst([1,2,3,4])
